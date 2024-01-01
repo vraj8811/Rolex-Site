@@ -1,0 +1,153 @@
+.NewArrivalsSection {
+    width: 1280px;
+    height: 678px;
+    position: relative;
+    background: #FCFCFC;
+  }
+  
+  .Title {
+    width: 150px;
+    height: 39px;
+    left: 565px;
+    top: 72px;
+    position: absolute;
+  }
+  
+  .NewArrivalsText {
+    left: 0;
+    top: 16px;
+    position: absolute;
+    color: #2E2E2E;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    letter-spacing: 0.80px;
+    word-wrap: break-word;
+  }
+  
+  .Line1 {
+    width: 67px;
+    height: 0;
+    left: 42px;
+    top: 0;
+    position: absolute;
+    border: 1px #FFB568 solid;
+  }
+  
+  .CardNew1,
+  .CardNew2,
+  .CardNew3,
+  .CardNew4 {
+    width: 238px;
+    height: 371px;
+    position: absolute;
+  }
+  
+  .CardContent {
+    width: 238px;
+    height: 371px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+    border: 1px #F0F0F0 solid;
+  }
+  
+  .NewTag {
+    width: 65px;
+    height: 34px;
+    left: 157px;
+    top: 16px;
+    position: absolute;
+  }
+  
+  .Rectangle3 {
+    width: 65px;
+    height: 34px;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  .NewText {
+    left: 16px;
+    top: 8px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .New1,
+  .New2,
+  .New3,
+  .New4 {
+    width: 130px;
+    height: auto;
+    left: 54px;
+    top: 32px;
+    position: absolute;
+  }
+  
+  .CardTitleYPrice {
+    width: 132px;
+    height: 50px;
+    left: 53px;
+    top: 273px;
+    position: absolute;
+  }
+  
+  .LonginesRose,
+  .Jazzmaster,
+  .DreyfussGold,
+  .PortugueseRose {
+    left: 0;
+    top: 0;
+    position: absolute;
+    color: #2E2E2E;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    word-wrap: break-word;
+  }
+  
+  .Price {
+    left: 45px;
+    top: 31px;
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    word-wrap: break-word;
+  }
+  
+  .ButtonCard {
+    width: 152px;
+    height: 56px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 43px;
+    top: 342px;
+    position: absolute;
+    background: #2B2B2B;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  .AddToCart {
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  

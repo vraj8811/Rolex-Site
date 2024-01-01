@@ -1,0 +1,123 @@
+.home-container {
+    width: 1280px;
+    height: 712px;
+    position: relative;
+    background: #FCFCFC;
+  }
+  
+  .social-link {
+    position: absolute;
+    transform: rotate(-90deg);
+    color: #8C8C8C;
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .watch-info {
+    width: 367px;
+    height: 331px;
+    left: 216px;
+    top: 194px;
+    position: absolute;
+  }
+  
+  .watch-title {
+    color: #2E2E2E;
+    font-size: 40px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 56px;
+    word-wrap: break-word;
+  }
+  
+  .watch-description {
+    width: 367px;
+    color: #595959;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 22.40px;
+    word-wrap: break-word;
+  }
+  
+  .watch-price {
+    color: #FFB568;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .button-container {
+    width: 272px;
+    height: 59px;
+    left: 0;
+    top: 272px;
+    position: absolute;
+  }
+  
+  .discover-button {
+    width: 111px;
+    height: 51px;
+    padding: 16px;
+    left: 0;
+    top: 4px;
+    background: #BFBFBF;
+    color: #595959;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .cart-button {
+    width: 165px;
+    height: 59px;
+    padding: 20px;
+    left: 107px;
+    top: 0;
+    background: #2B2B2B;
+    box-shadow: 0px 12px 24px rgba(25.50, 25.50, 25.50, 0.20);
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .image-container {
+    width: 480px;
+    height: 680px;
+    left: 672px;
+    top: 0;
+    position: absolute;
+  }
+  
+  .background {
+    width: 480px;
+    height: 680px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #FFB568;
+  }
+  
+  .watch-image {
+    width: 420px;
+    height: 560px;
+    left: 30px;
+    top: 96px;
+    position: absolute;
+  }
+  
+  .navbar {
+    width: 1280px;
+    height: 72px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    /* Add your Navbar styling here */
+  }
+  

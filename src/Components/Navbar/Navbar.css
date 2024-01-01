@@ -1,0 +1,45 @@
+/* Navbar.css */
+
+.Header {
+    width: 1280px;
+    height: 72px;
+    position: relative;
+}
+
+.NavMenu {
+    width: 312px;
+    height: 18px;
+    left: 266px;
+    top: 27px;
+    position: absolute;
+}
+
+.NavMenu a {
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.Home,
+.Products,
+.New {
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.Home a,
+.Products a,
+.Upload a,
+.New a {
+    color: #2E2E2E;
+    transition: color 0.3s;
+}
+
+.Home a:hover,
+.Products a:hover,
+.Upload a:hover,
+.New a:hover {
+    color: #FFB568;
+}
