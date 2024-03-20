@@ -28,10 +28,10 @@ const Featured = () => {
   const allDataDisplayed = rows * visibleCards >= featuredWatches.length;
 
   return (
-    <div className="Featured" style={{ width: 1280,position: 'relative', background: '#FCFCFC' }}>
-      <div className="Line1" style={{ left: 589, position: 'absolute',width: 67, height: 0, top: 30, position: 'absolute', border: '1px #FFB568 solid' }}></div>
-        <div className="Featured1" style={{ left: 573, position: 'absolute', top: 40, position: 'absolute', color: '#2E2E2E', fontSize: 20, fontFamily: 'Roboto', fontWeight: '500', letterSpacing: 0.80, wordWrap: 'break-word' }}>FEATURED</div>
-      <table className="featured-table" style={{ borderCollapse: 'collapse', width: '100%',lineHeight:1 }}>
+    <div className="Featured" style={{ width: 1280, position: 'relative', background: '#FCFCFC' }}>
+      <div className="Line1" style={{ left: 589, position: 'absolute', width: 67, height: 0, top: 30, position: 'absolute', border: '1px #FFB568 solid' }}></div>
+      <div className="Featured1" style={{ left: 573, position: 'absolute', top: 40, position: 'absolute', color: '#2E2E2E', fontSize: 20, fontFamily: 'Roboto', fontWeight: '500', letterSpacing: 0.80, wordWrap: 'break-word' }}>FEATURED</div>
+      <table className="featured-table" style={{ borderCollapse: 'collapse', width: '100%', lineHeight: 1 }}>
         {[...Array(rows)].map((_, rowIndex) => (
           <tr key={rowIndex}>
             {[...Array(visibleCards)].map((_, cardIndex) => {
@@ -40,7 +40,7 @@ const Featured = () => {
               return (
                 <td key={watch?.id} style={{ padding: '10px', textAlign: 'center' }}>
                   {watch && (
-                    <div className="featured-card" style={{ marginTop:50,marginLeft:50,width: 300, height: 400, borderRadius: '8px', overflow: 'hidden', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', transition: 'transform 0.3s ease' }}>
+                    <div className="featured-card" style={{ marginTop: 50, marginLeft: 50, width: 300, height: 400, borderRadius: '8px', overflow: 'hidden', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', transition: 'transform 0.3s ease' }}>
                       {watch.issale === 1 && (
                         <div className="sale-tag" style={{ fontSize: 14, fontFamily: 'Roboto', fontWeight: '500', wordWrap: 'break-word', transform: 'rotate(-90deg)', transformOrigin: '0 0', display: 'inline-block', padding: '6px 12px', background: '#FFB568', color: 'white', position: 'absolute', marginLeft: -80, marginTop: 90 }}>SALE</div>
                       )}
